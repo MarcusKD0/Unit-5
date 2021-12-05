@@ -1,9 +1,17 @@
 .gallery{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 860px;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #search{
-    background-color: aqua;
+    width: 40%;
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
